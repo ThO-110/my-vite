@@ -1,0 +1,141 @@
+@import 'prefix';
+
+.@{prefix-cls}__module-class {
+  color: red;
+}
+
+// 规则发现-基础配置
+.@{prefix-cls}__excavate-config__params {
+  width: 59rem;
+  max-width: 100%;
+}
+
+.@{prefix-cls}__excavate-config__wrap {
+  max-width: 59rem;
+  margin: 0 auto;
+}
+
+.@{prefix-cls}__excavate-config__form-label {
+  .ant-form-item-label > label {
+    height: 38px;
+    justify-content: flex-end;
+    width: 9.4rem;
+  }
+}
+
+// 规则发现过程和规则应用监控的任务信息
+.@{prefix-cls}__task-key--width {
+  width: 9vw;
+  display: inline-block;
+}
+
+.@{prefix-cls}__datasourceList-cloneDataSourceModal-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .ant-form-item-label > label {
+      width:9rem ;
+      margin-right: 0.5rem;
+      justify-content: flex-end;
+    }
+}
+
+// 下载中心
+.@{prefix-cls}__rule-apply-download-rule-hit-class{
+  padding-left: 3.8rem;
+  }
+
+
+// license管理
+.@{prefix-cls}__license-admin-baseInfo-key-class{
+  min-width: 7.7rem;
+}
+.@{prefix-cls}__license-admin-baseInfo-value-class{
+  min-width: calc(100% - 7.7rem);
+  }
+
+ .@{prefix-cls}__license-admin-apply-modal-class{
+    .ant-form-item-label{
+      min-width:8rem;
+      margin-right: 1rem;
+    }
+    .ant-modal-body{
+      padding:2.88rem 0 1.5rem 6rem
+    }
+    .ant-col-sm-offset-6{
+        margin-left: 34.5%;
+        @media (max-width: 575px) {
+          margin-left: 0.5%;
+      }
+    }
+  }
+
+.@{prefix-cls}__license-admin-confirm-applyway-label-class{
+  min-width: 8rem;
+}
+
+// 文件上传
+
+.@{prefix-cls}__file-upload-class{
+  white-space: normal;
+  height: 8rem !important;
+}
+
+// 规则发现结果-入库规则
+.@{prefix-cls}__rule-result__add-rule-modal{
+  width: 36rem !important;
+}
+
+// 规则发现-发现对象、方向编辑弹窗
+.@{prefix-cls}__editRuleDisCovery-modal-wrap {
+  min-width: 60rem;
+}
+.@{prefix-cls}__editRuleDisCovery-modal-body {
+  min-width: 53.125rem; // 850px
+}
+.@{prefix-cls}__editFindDirection-modal-body {
+  min-width: 54.325rem; // 870px
+}
+// 规则库 - 规则编辑弹窗
+.@{prefix-cls}__editRuleEntuty-modal-wrap {
+  min-width: 60rem;
+}
+.@{prefix-cls}__editRuleEntuty-modal-body {
+  min-width: 55.25rem;
+}
+.@{prefix-cls}__editRuleEntuty-title {
+  display: inline-block;
+  width: 2.905rem;
+  padding-left: 0.3rem;
+}
+// 规则库 - 英文模式下筛选行 表格高度修改
+.@{prefix-cls}__ruleBase-table {
+  @media (max-width: 1307.5px) {
+    .ant-table-body {
+      height: calc(100vh - 23.875rem) !important;
+    }
+  }
+}
+// 规则库 - 英文模式下筛选宽度修改
+.@{prefix-cls}__ruleBase-select-width {
+  width: 6rem !important;
+}
+// 规则库 - 英文模式下数据源筛选外边距修改
+.@{prefix-cls}__ruleBase-search-margin {
+  @media (max-width: 1307.5px) {
+    margin-top: 1rem;
+  }
+}
+
+
+// 数据准备-编辑弹窗
+.@{prefix-cls}__editRuleEntuty-where-input {
+  width: 632px;
+  border: none;
+}
+
+// 404页面
+.@{prefix-cls}__error__msg {
+  bottom: 3.5rem !important;
+  left: 1.25rem !important;
+}

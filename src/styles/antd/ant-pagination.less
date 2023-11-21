@@ -1,0 +1,52 @@
+.ant-table-pagination.ant-pagination {
+  display: flex;
+  padding-left: 1rem;
+  width: 100%;
+}
+
+// 左右布局的风格
+.ant-pagination.flex-between {
+  display: flex;
+  &.mini {
+    .ant-pagination-item.ant-pagination-item-active {
+      min-width: auto;
+    }
+    .ant-pagination-item:not(.ant-pagination-item-active) {
+      a {
+        // max-width: 2rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+  .ant-pagination-total-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 0;
+  }
+  .ant-pagination-prev {
+    margin-left: auto;
+  }
+  .ant-pagination-item {
+    border-radius: 3px;
+    a {
+      &hover {
+        color: @heading-color;
+      }
+    }
+
+    // &.ant-pagination-item-active {
+    //   background: @primary-color;
+    //   border: 0;
+    //   padding:0 2px;
+    //   a {
+    //     color: @white-keep;
+    //   }
+    // }
+    &:nth-last-child(2) a {
+      text-overflow: clip;
+      max-width: none;
+    }
+  }
+}
